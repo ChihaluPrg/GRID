@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.header h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.items {
+    font-size: 1.5rem;
+    width: 900px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "areaA areaA areaB"
+    "areaC areaD areaE"
+    "areaF areaF areaE"
+    ;
+}
+
+.item01 {
+    background-color: rgb(243, 182, 182);
+    grid-area: areaA;
+}
+
+.item02 {
+    background-color: rgb(182, 214, 243);
+    grid-area: areaB;
+}
+
+.item03 {
+    background-color: rgb(239, 243, 182);
+    grid-area: areaC;
+}
+
+.item04 {
+    background-color: rgb(243, 234, 182);
+    grid-area: areaD;
+}
+
+.item05 {
+    background-color: rgb(182, 243, 187);
+    grid-area: areaE;
+}
+
+.item06 {
+    background-color: rgb(243, 196, 182);
+    grid-area: areaF;
+}
